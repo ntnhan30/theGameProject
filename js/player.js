@@ -1,4 +1,4 @@
-function Player(x, y, width, height, vx) {
+function Player(x, y, width, height) {
     this.x = x;
     this.y = y;
     //this.vx=vx;
@@ -6,7 +6,7 @@ function Player(x, y, width, height, vx) {
     this.height = height;
     this.imgPlayer = new Image();
     this.imgPlayer.src = "images/womanInBath.png";
-    
+    // ciommenz 
     // this.left = function () {
     //     return this.x
     // };
