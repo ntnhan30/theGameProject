@@ -17,7 +17,7 @@ body button {
       display: flex;
       flex-direction: column;
       align-items: center;
-      background-image: url("/images/13302.jpg");
+      background-image: url("images/13302.jpg");
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: center;
