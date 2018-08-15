@@ -5,7 +5,7 @@ function Player(x, y, width, height) {
     this.width = width;
     this.height = height;
     this.imgPlayer = new Image();
-    this.imgPlayer.src = "images/womanInBath.png";
+    this.imgPlayer.src = "images/turd-smiley.png";
     // ciommenz 
     // this.left = function () {
     //     return this.x

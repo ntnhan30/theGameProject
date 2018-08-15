@@ -52,8 +52,8 @@ function Ball(x, y, vx, vy, radius) {
       this.x = this.radius;
     if (this.x > width - this.radius)
       this.x = width - this.radius;
-    // if (this.y < this.radius)
-    //   this.y = this.radius;
+    if (this.y < this.radius)
+      this.y = this.radius;
     // if (this.y > height - this.radius)
     //   this.y = height - this.radius;
   };
@@ -70,7 +70,18 @@ function Ball(x, y, vx, vy, radius) {
   }
 
   Ball.prototype.nextLevel = function () {
-    this.radius +=10;
+    // switch (this.color) {
+    //   case "red":
+    //   this.color = "green";
+    //   break;
+    //   case "green":
+    //   this.color = "blue";
+    //   break;
+    //   default:
+    //   this.color = "red";
+    // }
+    this.color= '#'+Math.floor(Math.random()*16777215).toString(16);
+     this.radius +=5;
     // this.x=0;
     // this.y=height-60;
   }
